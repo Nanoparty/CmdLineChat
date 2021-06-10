@@ -14,6 +14,7 @@ app.listen(3001, () => {
 });
 
 app.get('/messages', (req, res) => {
+    console.log("Sending Messages")
     res.json(messages);
 });
 
@@ -28,6 +29,7 @@ app.post('/messages', (req, res) => {
 
 app.ws('/messages', socket => {
     sockets.push(socket);
+    console.log("new socket")
 
     socket.on('close', () => {
         sockets.splice(sockets.indexOf(socket, 1));
