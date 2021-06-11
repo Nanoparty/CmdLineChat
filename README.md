@@ -1,4 +1,4 @@
-# TerminalChat
+# CmdLineChat
 
 ### Summary
 
