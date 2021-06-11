@@ -9,8 +9,8 @@ const sockets = [];
 
 app.use(express.json());
 
-app.listen(3001, () => {
-    console.log('Listening on port 3001!');
+app.listen(80, () => {
+    console.log('Listening on port 80!');
 });
 
 app.get('/messages', (req, res) => {
