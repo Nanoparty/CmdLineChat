@@ -11,7 +11,9 @@ This project was to build a quick example of what I could do with node.js, expre
 ### How to Run
 
 First you need to run the server. This can be run locally or on a web server.
-Inside the messaging_api.js file you need to set the URL constant. If you are running locally set it to 'localhost', if you are running it on a web server input the public IPv4 ex. ec2-**-***-**-***.us-east-2.compute.amazonaws.com.
+Inside the messaging_api.js file you need to set the URL constant. 
+If you are running locally set it to 'localhost', if you are running it on a web server input the public IPv4 
+ex. ec2-**-***-**-***.us-east-2.compute.amazonaws.com.
 Default PORT value is 3000 but can be changed.
 
 Next you need to run the client. Client takes one argument for chatroom username
