@@ -17,5 +17,6 @@ Default PORT value is 3000 but can be changed.
 Next you need to run the client. Client takes one argument for chatroom username
 ex. node client Jeffery
 
-![image](https://user-images.githubusercontent.com/39596241/128610908-2c557512-2b84-4e5d-9265-7674fd92fcf0.png)
+![image](https://user-images.githubusercontent.com/39596241/128610920-15d343e7-c8e8-40d6-b8af-1e3a5c855caa.png)
+
 
