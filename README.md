@@ -16,7 +16,7 @@ Inside the messaging_api.js file you need to set the URL constant.
 
 If you are running locally set it to 'localhost', if you are running it on a web server input the public IPv4 
 
-ex. ec2-**-***-**-***.us-east-2.compute.amazonaws.com.
+ex. ec2-##-###-##-###.us-east-2.compute.amazonaws.com.
 
 Default PORT value is 3000 but can be changed.
 
